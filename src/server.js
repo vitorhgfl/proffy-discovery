@@ -1,5 +1,5 @@
 // Servidor
-const express = require('express')
+const express = require('express');
 const server = express()
 
 const { pageLanding, pageStudy, pageGiveClasses, saveClasses } = require('./pages')

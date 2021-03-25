@@ -1,6 +1,6 @@
 const Database = require('./database/db')
 
-const { subjects, weekdays, getSubject, convertHoursToMinutes } = require('./utils/format')
+const { subjects, weekdays, getSubject, convertHoursToMinutes } = require('./src/utils/format')
 
 function pageLanding(req, res) {
     return res.render("index.html")
